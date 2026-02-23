@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(228, 190, 34);
+  /* background-color: rgb(64, 227, 72); */
+}
+body{
+  margin: 0;      
+  /* background-color: rgb(228, 190, 34); */
+  background-color: rgb(64, 227, 72);
+}
+.instapost{
+  height: 450px;
+  width: 1000;
+  background-color: rgb(228, 190, 34);
+  /* background-color:  rgb(64, 227, 72); */
+}
+.post{
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 400px;
+}
+.liked{
+  background-color: red;
+  color: white;
+}
+.notLiked{
+  background-color: rgb(255, 246, 246);
+  color: rgb(7, 7, 7);
+}
+.likebtn{
+  margin-top: 20px;
+   display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; 
+}
+.pic{
+  height: 400px;
+  width: 200px;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
